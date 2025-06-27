@@ -7,7 +7,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://readify-archives.github.io/readify-archives.github.io",
+  "homepage": "https://readify-archives.github.io/",
   "dependencies": {
     "fuse.js": "^6.6.2",
     "react": "^18.2.0",
