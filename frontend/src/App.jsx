@@ -10,7 +10,7 @@ function App() {
   const [page, setPage] = useState(1);
 
   useEffect(() => {
-    fetch("https://your-backend-url.onrender.com/books")
+    fetch("https://readify-archives-github-io.onrender.com")
       .then(res => res.json())
       .then(data => {
         setBooks(data);

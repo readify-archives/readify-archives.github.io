@@ -4,7 +4,7 @@ function BookCard({ book }) {
   const [expanded, setExpanded] = useState(false);
   return (
     <div onClick={() => setExpanded(!expanded)} className="bg-white rounded-xl shadow-md p-2 cursor-pointer transition hover:scale-105">
-      <img src={`https://your-backend-url.onrender.com/${book.cover}`} alt={book.title} className="w-full h-48 object-cover rounded" />
+      <img src={`https://readify-archives-github-io.onrender.com/${book.cover}`} alt={book.title} className="w-full h-48 object-cover rounded" />
       <h3 className="text-md font-semibold mt-2">{book.title}</h3>
       {expanded && (
         <div className="text-sm mt-1">
